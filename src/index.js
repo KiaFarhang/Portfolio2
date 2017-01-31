@@ -2,131 +2,9 @@ if (process.env.NODE_ENV !== 'production') {
     require('./index.html');
 }
 
-require('./style.scss');
+require('./scss/style.scss');
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-// function formatName(user){
-// 	return user.firstName + ' ' + user.lastName;
-// }
-
-// let user = {
-// 	firstName: 'Anne',
-// 	lastName: 'Millerbernd'
-// };
-
-// function tick(){
-// 	let element = (
-// 	<div>
-// 	<h1>Hello, {formatName(user)}!</h1>
-// 	<h2>It is {new Date().toLocaleTimeString()}.</h2>
-// 	</div>
-// );
-
-// ReactDOM.render(
-// 	element,
-// 	document.getElementById('app')
-// 	);
-// }
-
-// setInterval(tick, 1000);
-
-// class Welcome extends React.Component {
-// 	render(){
-// 		return <h1>Hello, {this.props.name} {this.props.lastName}</h1>
-// 	}
-// }
-
-// class App extends React.Component {
-// 	render(){
-// 		return (
-// 			<div>
-// 				<Welcome name="Kia" lastName="Farhang" />
-// 				<Welcome name="Anne" lastName="Millerbernd" />
-// 			</div>
-// 		);
-// 	}
-// }
-
-// const element = <Welcome name="Kia" lastName="Farhang" />;
-// ReactDOM.render(
-// 	<App />,
-// 	document.getElementById('app')
-// );
-
-
-// class Clock extends React.Component {
-// 	constructor(props){
-// 		super(props);
-// 		this.state = {date: new Date()};
-// 	}
-
-// 	componentDidMount(){
-// 		this.timerID = setInterval(
-// 			() => this.tick(),
-// 			1000
-// 			);
-// 	}
-
-// 	componentWillUnmount(){
-// 		clearInterval(this.timerID);
-// 	}
-
-// 	tick(){
-// 		this.setState({
-// 			date: new Date()
-// 		});
-// 	}
-
-// 	render(){
-// 		return (
-// 			<div>
-// 				<h1>Hello!</h1>
-// 				<h2>It is {this.state.date.toLocaleTimeString()}.</h2>
-// 			</div>
-// 			);
-// 	}
-// }
-
-// class App extends React.Component {
-// 	render() {
-// 		return (
-// 			<div>
-// 				<Clock />
-// 				<Clock />
-// 				<Clock />
-// 			</div>
-// 			);
-// 	}
-// }
-
-// ReactDOM.render(
-// 	<App />,
-// 	document.getElementById('app')
-// 	);
-
-// class Toggle extends React.Component {
-// 	constructor(props){
-// 		super(props);
-// 		this.state = {isToggleOn: true};
-
-// 		this.handleClick = this.handleClick.bind(this);
-// 	}
-
-// 	handleClick() {
-// 		this.setState(prevState => ({
-// 			isToggleOn: !prevState.isToggleOn
-// 		}));
-// 	}
-
-// 	render(){
-// 		return (
-// 			<button onClick={this.handleClick}>
-// 				{this.state.isToggleOn ? 'ON' : 'OFF'}
-// 			</button>
-// 			);
-// 	}
-// }
 
 class Figure extends React.Component {
 	render(){
@@ -155,27 +33,22 @@ class ProjectDescription extends React.Component {
 	}
 }
 
-// class PortfolioItem extends React.Component {
-// 	render(){
-// 		return (
-// 			<div className="work">
-// 				<h4>
-// 					{this.props.title}
-// 				</h4>
-// 				<div className="hide">
-// 					<Figure link={this.props.link} linkTitle={this.props.linkTitle} imgSrc={this.props.imgSrc} imgAlt={this.props.imgAlt} />
-// 					<ProjectDescription description={this.props.description}/>
-// 				</div>
-// 			</div>
-// 		);
-// 	}
-// }
-
 class PortfolioItem extends React.Component {
+	constructor(props){
+		super(props);
+
+		// this.handleClick = this.handleClick.bind(this);
+	}
+
+	// handleClick(){
+	// 	if (screen.width < 768){
+	// 		this.className = 'hide';
+	// 	}
+	// }
 	render(){
 		return (
 			<div className="work">
-				<h4>
+				<h4 onClick={this.handleClick}>
 					{this.props.title}
 				</h4>
 				<div className="hide">
@@ -189,17 +62,151 @@ class PortfolioItem extends React.Component {
 
 let array = [
 					{
+						id: 1,
 						title: "GameCala",
 						link: "https://gamecala.com",
 						linkTitle: "GameCala",
-						imgSrc: "gca.jpg",
+						imgSrc: "img/gca.jpg",
 						imgAlt: "GameCala",
+						caption: "Web app",
+						description: "Description"
+					},
+					{
+						id: 2,
+						title: "Daily Dog Email",
+						link: "https://dailydogemail.com",
+						linkTitle: "Daily Dog Email",
+						imgSrc: "img/dde.jpg",
+						imgAlt: "Daily Dog Email",
+						caption: "Node server/mailing list",
+						description: "Description"
+					},
+					{
+						id: 3,
+						title: "Yalla Chrome Extension",
+						link: "https://chrome.google.com/webstore/detail/yalla/jhlpghijadgjojbpepmkegbbefgnioeo",
+						linkTitle: "Yalla Chrome Extension",
+						imgSrc: "img/yext.jpg",
+						imgAlt: "Yalla Chrome Extension",
+						caption: "Chrome Extension",
+						description: "Description"
+					},
+					{
+						id: 4,
+						title: "SEO Keyword Generator",
+						link: "https://www.yallahq.com/keyword-generator",
+						linkTitle: "SEO Keyword GEnerator",
+						imgSrc: "img/key.jpg",
+						imgAlt: "SEO Keyword Generator",
+						caption: "Web app",
+						description: "Description"
+					},
+					{
+						id: 5,
+						title: "Swiss Army Notebook",
+						link: "https://chrome.google.com/webstore/detail/swiss-army-notebook/hlbcccckmdljmcigplbhkjdafjhbknec",
+						linkTitle: "Swiss Army Notebook",
+						imgSrc: "img/san.jpg",
+						imgAlt: "Swiss Army Notebook",
+						caption: "Chrome extension",
+						description: "Description"
+					},
+					{
+						id: 6,
+						title: "Anne Millerbernd",
+						link: "http://www.amillerbernd.com",
+						linkTitle: "Anne Millerbernd",
+						imgSrc: "img/am.jpg",
+						imgAlt: "Anne Millerbernd",
+						caption: "Personal portfolio site",
 						description: "Description"
 					}
 			]; 
-			
-ReactDOM.render(
 
-	<PortfolioItem title={array[0].title} link={array[0].link} linkTitle={array[0].linkTitle} imgSrc={'./src/gca.jpg'} imgAlt={array[0].imgAlt} description={array[0].description}/>,
+let portfolioItems = array.map((item) =>
+	<PortfolioItem key ={item.id} title={item.title} link={item.link} linkTitle={item.linkTitle} imgSrc={item.imgSrc} imgAlt={item.imgAlt} caption={item.caption} description={item.description}/>
+	);
+
+class App extends React.Component {
+	render(){
+		return (
+			<div>
+				<section id="top"></section>
+				<section id="portfolio">
+					<h3>My Work</h3>
+					<div id="displayZone"></div>
+					{portfolioItems}
+				</section>
+			</div>
+		);
+	}
+}
+
+ReactDOM.render(
+	<App></App>,
 	document.getElementById('app')
 	);
+
+var items = document.querySelectorAll('h4');
+
+if (screen.width < 768) {
+    for (let i = 0; i < items.length; i++) {
+        items[i].addEventListener('click', toggleDisplayMobile);
+    }
+} else {
+    for (let i = 0; i < items.length; i++) {
+        items[i].addEventListener('click', toggleDisplay);
+    }
+}
+
+function toggleDisplayMobile(e) {
+    var div = e.target.parentElement;
+    var contents = div.getElementsByTagName('div');
+    var content = contents[0];
+    var heading = div.firstChild.nextSibling;
+    content.classList.toggle('show');
+    heading.classList.toggle('selected');
+}
+
+function toggleDisplay(e) {
+
+    var div = e.target.parentElement;
+    var contents = div.getElementsByTagName('div');
+    var content = contents[0];
+    var heading = div.firstChild.nextSibling;
+    var display = document.getElementById('displayZone');
+
+
+    if (display.firstChild) {
+        if (isAlreadyDisplayed(display)) {
+            display.removeChild(display.firstChild);
+        } else {
+            display.removeChild(display.firstChild);
+            addThisContent(content);
+        }
+    } else {
+        addThisContent(content);
+    }
+
+
+    function addThisContent(e) {
+        var fragment = document.createDocumentFragment();
+        fragment.appendChild(e.cloneNode(true));
+
+        fragment.firstChild.classList.toggle('show');
+
+        display.appendChild(fragment);
+    }
+
+    function isAlreadyDisplayed(e) {
+        var displayedText = e.getElementsByTagName('p');
+        var oldText = displayedText[0];
+        var otherText = content.getElementsByTagName('p');
+        var newText = otherText[0];
+
+        return (oldText.isEqualNode(newText));
+    }
+
+
+
+}
