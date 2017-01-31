@@ -192,7 +192,7 @@ let array = [
 						title: "GameCala",
 						link: "https://gamecala.com",
 						linkTitle: "GameCala",
-						imgSrc: "https://kiafarhang.com/img/gca.jpg",
+						imgSrc: "gca.jpg",
 						imgAlt: "GameCala",
 						description: "Description"
 					}
@@ -200,6 +200,6 @@ let array = [
 			
 ReactDOM.render(
 
-	<PortfolioItem title={array[0].title} link={array[0].link} linkTitle={array[0].linkTitle} imgSrc={array[0].imgSrc} imgAlt={array[0].imgAlt} description={array[0].description}/>,
+	<PortfolioItem title={array[0].title} link={array[0].link} linkTitle={array[0].linkTitle} imgSrc={'./src/gca.jpg'} imgAlt={array[0].imgAlt} description={array[0].description}/>,
 	document.getElementById('app')
 	);

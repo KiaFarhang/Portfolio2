@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.7.0",
+    "file-loader": "^0.10.0",
     "postcss-loader": "^1.2.2",
     "postcss-smart-import": "^0.6.7",
     "precss": "^1.4.0",

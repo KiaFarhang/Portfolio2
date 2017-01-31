@@ -29,12 +29,15 @@ module.exports = {
         },
         {   test: /\.html$/,
             loader: "raw-loader"
-
         },
         {
             test: /\.js$/,
             exclude: /node_modules/,
             loader: "babel-loader"
+        },
+        {
+            test: /\.(jpg|png)$/,
+            loader: 'file-loader'
         }]
     },
     devServer: {
