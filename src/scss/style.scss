@@ -1,5 +1,43 @@
 @import 'reset';
 
+@font-face {
+    font-family: 'fontello';
+    src: url('../../dist/font/fontello.woff2?98115244') format('woff2'), url('../../dist/font/fontello.woff?98115244') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail-alt:before {
+    content: '\f0e0';
+}
+
+.icon-github:before {
+    content: '\f113';
+}
+
+.icon-linkedin-squared:before {
+    content: '\f30c';
+}
+
 $primaryBlack: #262626;
 $primaryWhite: #EDEDED;
 $primaryRed: #FF1C16;
@@ -19,6 +57,39 @@ a {
     transition: color 1s linear;
     &:hover {
         color: $primaryRed;
+    }
+}
+
+section#top {
+    text-align: center;
+    img {
+        border-radius: 40%;
+        height: 12em;
+        margin-top: 2em;
+        max-width: auto;
+    }
+    h2 {
+        font-family: 'Allerta Stencil', sans-serif;
+        font-size: 200%;
+    }
+    p {
+        margin: 1em 0;
+        text-align: left;
+    }
+    div#contact {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2em;
+        a {
+            color: $primaryBlack;
+            i {
+                font-size: 200%;
+                transition: color 1.5s ease;
+                &:hover {
+                    color: $primaryRed;
+                }
+            }
+        }
     }
 }
 
@@ -68,22 +139,20 @@ section#portfolio {
 }
 
 @media screen and (min-width: 768px) {
-    // section#top {
-    //     display: flex;
-    //     flex-direction: row;
-    //     justify-content: space-between;
-    //     margin-bottom: 3em;
-    //     div {
-    //         flex-basis: 50%;
-    //     }
-    //     p,
-    //     img {
-    //         margin-top: 2em;
-    //     }
-    //     div#contact {
-    //         // justify-content: space-between;
-    //     }
-    // }
+    section#top {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-bottom: 3em;
+     div {
+         flex-basis: 50%;
+     }
+     p,
+     img {
+         margin-top: 2em;
+     }
+ }
+
     div#displayZone {
         div.show {
             max-height: 100em;

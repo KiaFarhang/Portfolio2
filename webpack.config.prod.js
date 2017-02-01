@@ -30,12 +30,20 @@ module.exports = {
     ],
     module: {
         loaders: [{
-            test: /\.scss$/,
-            loaders: ["style", "css", "postcss-loader", "sass"]
-        }, {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            loader: "babel-loader"
-        }]
+                test: /\.scss$/,
+                loaders: ["style", "css", "sass"]
+            }, {
+                test: /\.html$/,
+                loader: "raw-loader"
+            }, {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: "babel-loader"
+            }, {
+                test: /\.(jpg|png)$/,
+                loader: 'file-loader'
+            },
+            { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/, loader: 'file-loader' }
+        ]
     },
 };

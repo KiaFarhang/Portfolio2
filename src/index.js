@@ -6,6 +6,25 @@ require('./scss/style.scss');
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+class Top extends React.Component {
+	render(){
+		return (
+			<section id="top">
+				<div id="name-image">
+					<img alt="Kia Farhang" src="img/kf.jpg"/>
+					<h2>Kia Farhang</h2>
+				</div>
+				<div id="about">
+					<p>Hi! I'm a web developer living in Southern California. I worked as a journalist before entering the web world, and I currently split my time between coding and writing at <a href="https://www.lemonadestand.org/" title="Lemonade Stand" target="_blank">the marketing agency Lemonade Stand.</a></p>
+					<p>My dream job is to build web applications, and you can see some of my work below. That's about as many "I-me-my" sentences as I can take.</p>
+			        <p>Shoot me an email or check me out on GitHub.</p>
+			        <div id="contact"><a href="mailto:kfarhang0@gmail.com" title="Email Kia at kfarhang0@gmail.com"><i className="icon-mail-alt"></i></a> <a href="https://github.com/KiaFarhang" title="Kia Farhang on GitHub" target="_blank"><i className="icon-github"></i></a> <a href="https://www.linkedin.com/in/kia-farhang-68423966" title="My LinkedIn page" target="_blank"><i className="icon-linkedin-squared"></i></a></div>
+				</div>
+			</section>
+		)
+	}
+}
+
 class Figure extends React.Component {
 	render(){
 		return (
@@ -36,15 +55,7 @@ class ProjectDescription extends React.Component {
 class PortfolioItem extends React.Component {
 	constructor(props){
 		super(props);
-
-		// this.handleClick = this.handleClick.bind(this);
 	}
-
-	// handleClick(){
-	// 	if (screen.width < 768){
-	// 		this.className = 'hide';
-	// 	}
-	// }
 	render(){
 		return (
 			<div className="work">
@@ -69,7 +80,7 @@ let array = [
 						imgSrc: "img/gca.jpg",
 						imgAlt: "GameCala",
 						caption: "Web app",
-						description: "Description"
+						description: "I love video games, but never have time to play them. A popular site for tracking game lengths had no good way to compare multiple games at once, and no API to get their data. So I scraped the site, created my own database and built GameCala on a Digital Ocean VPS. All the code is available on GitHub."
 					},
 					{
 						id: 2,
@@ -79,7 +90,7 @@ let array = [
 						imgSrc: "img/dde.jpg",
 						imgAlt: "Daily Dog Email",
 						caption: "Node server/mailing list",
-						description: "Description"
+						description: "My girlfriend really likes dogs, and I wanted to get a better handle on Node. So I wrote a script to query Petfinder's API for a random dog, package the information about the dog (photo, location, etc.) into an email and send one to her daily. Then I figured - why not open it up to anyone? About a week of 'how do I deploy to Heroku' and 'Mailgun's documentation is not great' later, I finally launched the Daily Dog Email. You can check out the code on GitHub and even join the mailing list yourself!"
 					},
 					{
 						id: 3,
@@ -89,7 +100,7 @@ let array = [
 						imgSrc: "img/yext.jpg",
 						imgAlt: "Yalla Chrome Extension",
 						caption: "Chrome Extension",
-						description: "Description"
+						description: "Yalla is a new project management app built internally at Lemonade Stand. My Chrome extension lets users add priorities for themselves or others from anywhere on the web. Basically an on-demand web form, the extension bundles a user's priority details and sends them to the Yalla priority-creation API. Code available on GitHub. Extension live on the Chrome web store."
 					},
 					{
 						id: 4,
@@ -99,7 +110,7 @@ let array = [
 						imgSrc: "img/key.jpg",
 						imgAlt: "SEO Keyword Generator",
 						caption: "Web app",
-						description: "Description"
+						description: "Generating lists of SEO keywords with slight variations is a boring exercise in copy and paste. I coded this tool to make it simpler. This one-page web application uses JavaScript string manipulation to spit out variations on whatever combinations of terms and locations you throw at it. Lemonade Stand is marketing it to other agencies under the Yalla brand."
 					},
 					{
 						id: 5,
@@ -109,7 +120,7 @@ let array = [
 						imgSrc: "img/san.jpg",
 						imgAlt: "Swiss Army Notebook",
 						caption: "Chrome extension",
-						description: "Description"
+						description: "This extension is designed to make reporters' lives easier. It taps into Merriam-Webster's APIs to give you a one-click thesaurus and dictionary, binds some new keyboard shortcuts to Chrome and lets users batch-search competitors' websites on Google. Code what you know, right?"
 					},
 					{
 						id: 6,
@@ -119,7 +130,7 @@ let array = [
 						imgSrc: "img/am.jpg",
 						imgAlt: "Anne Millerbernd",
 						caption: "Personal portfolio site",
-						description: "Description"
+						description: "Another journalist's portfolio. She works on data visualizations a lot, and I struggled with how best to embed them into the page. If I could do it over I'd use Flexbox over Bootstrap, definitely."
 					}
 			]; 
 
@@ -131,7 +142,7 @@ class App extends React.Component {
 	render(){
 		return (
 			<div>
-				<section id="top"></section>
+				<Top></Top>
 				<section id="portfolio">
 					<h3>My Work</h3>
 					<div id="displayZone"></div>
