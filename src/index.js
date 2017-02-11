@@ -15,9 +15,8 @@ class Top extends React.Component {
 					<h2>Kia Farhang</h2>
 				</div>
 				<div id="about">
-					<p>Hi! I'm a JavaScript developer living in Southern California. I worked as a journalist before entering the web world, and I currently split my time between coding and writing at <a href="https://www.lemonadestand.org/" title="Lemonade Stand" target="_blank">the marketing agency Lemonade Stand.</a></p>
-					<p>My dream job is to build web applications, and you can see some of my work below. That's about as many "I-me-my" sentences as I can take.</p>
-			        <p>Shoot me an email or check me out on GitHub.</p>
+					<p>Hi! I'm a JavaScript developer currently coding and writing at <a href="https://www.lemonadestand.org/" title="Lemonade Stand" target="_blank">the marketing agency Lemonade Stand.</a></p>
+					<p>Back-end code fascinates me, and I gravitate toward projects involving logic and database work. I've collected some of my recent work below. Shoot me an email or check me out on GitHub to learn more.</p>
 			        <div id="contact"><a href="mailto:kfarhang0@gmail.com" title="Email Kia at kfarhang0@gmail.com"><i className="icon-mail-alt"></i></a> <a href="https://github.com/KiaFarhang" title="Kia Farhang on GitHub" target="_blank"><i className="icon-github"></i></a> <a href="https://www.linkedin.com/in/kia-farhang-68423966" title="My LinkedIn page" target="_blank"><i className="icon-linkedin-squared"></i></a></div>
 				</div>
 			</section>
