@@ -43,10 +43,8 @@ class Figure extends React.Component {
 class ProjectDescription extends React.Component {
 	render(){
 		return (
-			<div>
-				<p>
-					{this.props.description}
-				</p>
+			 <div>
+				<p dangerouslySetInnerHTML = {{__html: this.props.description}}></p>
 			</div>
 		);
 	}
@@ -90,7 +88,7 @@ let array = [
 						imgSrc: "img/dde.jpg",
 						imgAlt: "Daily Dog Email",
 						caption: "Node server/mailing list",
-						description: "My girlfriend really likes dogs, and I wanted to get a better handle on Node. So I wrote a script to query Petfinder's API for a random dog, package the information about the dog (photo, location, etc.) into an email and send one to her daily. Then I figured - why not open it up to anyone? About a week of 'how do I deploy to Heroku' and 'Mailgun's documentation is not great' later, I finally launched the Daily Dog Email. You can check out the code on GitHub and even join the mailing list yourself!"
+						description: "My girlfriend really likes dogs, <a href=\"google.com\">and</a> I wanted to get a better handle on Node. So I wrote a script to query Petfinder's API for a random dog, package the information about the dog (photo, location, etc.) into an email and send one to her daily. Then I figured - why not open it up to anyone? About a week of 'how do I deploy to Heroku' and 'Mailgun's documentation is not great' later, I finally launched the Daily Dog Email. You can check out the code on GitHub and even join the mailing list yourself!"
 					},
 					{
 						id: 3,
