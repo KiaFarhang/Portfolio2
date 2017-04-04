@@ -71,6 +71,16 @@ class PortfolioItem extends React.Component {
 let array = [
 					{
 						id: 1,
+						title: "Solar Smart Buy",
+						link: "https://www.solarsmartbuy.com",
+						linkTitle: "Solar Smart Buy",
+						imgSrc: "img/ssb.jpeg",
+						imgAlt: "Solar Smart Buy",
+						caption: "Web Application",
+						description: "Built this one-page app for a Lemonade Stand client. It lets would-be customers see how much money they'd save by installing solar panels in their home. I use the JavaScript history API to push history entries every time a client moves through a section - so even though it's all one page, you can use the forward and back buttons to navigate through the app. Can't show you source code, unfortunately - it's a client project!"
+					},
+					{
+						id: 2,
 						title: "PokéBuilder",
 						link: "https://bots.kik.com/#/dittobot",
 						linkTitle: "PokéBuilder",
@@ -80,7 +90,7 @@ let array = [
 						description: "Not a Pokémon fan, but some of my little cousins are. I <a href=\"https://bots.kik.com/#/dittobot\" target=\"_blank\" title=\"Pokebuilder\">built a chatbot</a> that lets them (or anyone else) customize a Pokémon they want, then tell me to send it to them. Kik can't handle user state, so I created a database to track every user's position in my control flow. <a href=\"https://github.com/KiaFarhang/dittobot\" title=\"Pokebuilder code\" target=\"_blank\">Check out the code</a> if you want to see a million JavaScript promises."
 					},
 					{
-						id: 2,
+						id: 3,
 						title: "GameCala",
 						link: "https://gamecala.com",
 						linkTitle: "GameCala",
@@ -90,7 +100,7 @@ let array = [
 						description: "I love video games, but never have time to play them. A popular site for tracking game lengths had no good way to compare multiple games at once, and no API to get their data. So I scraped the site, created my own database and built <a href=\"https://gamecala.com\" target=\"_blank\" title=\"GameCala\">GameCala</a> on a DigitalOcean VPS. All the code is <a href=\"https://github.com/KiaFarhang/GameCala\" title=\"GameCala code\" target=\"_blank\">available on GitHub.</a>"
 					},
 					{
-						id: 3,
+						id: 4,
 						title: "Daily Dog Email",
 						link: "https://dailydogemail.com",
 						linkTitle: "Daily Dog Email",
@@ -98,16 +108,6 @@ let array = [
 						imgAlt: "Daily Dog Email",
 						caption: "Node server/mailing list",
 						description: "My girlfriend really likes dogs, and I wanted to get a better handle on Node. So I wrote a script to query Petfinder's API for a random dog, package the information about the dog (photo, location, etc.) into an email and send one to her daily. Then I figured - why not open it up to anyone? About a week of 'how do I deploy to Heroku' and 'Mailgun's documentation is not great' later, I finally launched <a href=\"https://dailydogemail.com\" target=\"_blank\" title=\"Daily Dog Email\">the Daily Dog Email.</a> You can <a href=\"https://github.com/KiaFarhang/daily-dog\" target=\"_blank\" title=\"Daily Dog Email on GitHub\">check out the code on GitHub</a> and even join the mailing list yourself!"
-					},
-					{
-						id: 4,
-						title: "Yalla-Groove integration",
-						link: "https://github.com/KiaFarhang/yalla_groove",
-						linkTitle: "Yalla-Groove integration",
-						imgSrc: "img/gro.jpg",
-						imgAlt: "Yalla-Groove integration",
-						caption: "API integration",
-						description: "<a href=\"https://yallahq.com\" title=\"Yalla\" target=\"_blank\">Yalla</a> is project management software built at Lemonade Stand. We also use Groove to handle client requests. But tickets sometimes went too long without getting answered. I set up a webook that sends new tickets to a Node app I created. The app checks the client's email address against a PostgreSQL database I built to figure out who their account manager is. Then, after 10 minutes, if no one has answered the ticket, the app sends a task to the account manager through the Yalla API reminding them to get back to the client. The best part about building this is we almost never have to use it - knowing it's there was enough to speed up our responsiveness. <a href=\"https://github.com/KiaFarhang/yalla_groove\" title=\"Yalla-Groove\" target=\"_blank\">See the code (with my first unit tests!) on GitHub.</a>"
 					},
 					{
 						id: 5,
