@@ -28,7 +28,7 @@ class Figure extends React.Component {
 	render(){
 		return (
 			<figure>
-				<a href={this.props.link} title={this.props.linkTitle} target="_blank">
+				<a href={this.props.link} title={this.props.linkTitle}>
 					<img src={this.props.imgSrc} alt={this.props.imgAlt} />
 				</a>
 				<figcaption>
