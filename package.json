@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.7.0",
+    "body-parser": "^1.17.1",
     "express": "^4.14.1",
     "file-loader": "^0.10.0",
     "postcss-loader": "^1.2.2",
