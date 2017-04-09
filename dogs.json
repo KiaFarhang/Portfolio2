@@ -1,0 +1,1395 @@
+[
+  {
+    "ID": 1,
+    "Name": "DUG",
+    "Age": "7 YEARS",
+    "Breed": "BEAGLE",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 2,
+    "Name": "MAX",
+    "Age": "4 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 3,
+    "Name": "GIDGET",
+    "Age": "10 YEARS",
+    "Breed": "SHIH TZU",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 4,
+    "Name": "FRIDAY",
+    "Age": "10 YEARS",
+    "Breed": "SHIH TZU",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 5,
+    "Name": "JASPER",
+    "Age": "8 YEARS",
+    "Breed": "SHIH TZU",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 6,
+    "Name": "AUDREY",
+    "Age": "6 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 7,
+    "Name": "ROXY",
+    "Age": "8 YEARS",
+    "Breed": "POMERANIAN",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 8,
+    "Name": "FAITH",
+    "Age": "11 YEARS",
+    "Breed": "GERM SHEPHERD / LABRADOR RETR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 9,
+    "Name": "LUNA",
+    "Age": "2 YEARS",
+    "Breed": "GREAT PYRENEES",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 10,
+    "Name": "LADY BUG",
+    "Age": "2 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 11,
+    "Name": "HONEY",
+    "Age": "4 YEARS",
+    "Breed": "JACK RUSS TERR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 12,
+    "Name": "MCALLISTER",
+    "Age": "3 YEARS",
+    "Breed": "POODLE MIN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 13,
+    "Name": "DAISY",
+    "Age": "10 YEARS",
+    "Breed": "JACK RUSS TERR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 14,
+    "Name": "ROSIE",
+    "Age": "4 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 15,
+    "Name": "PRINCESS",
+    "Age": "2 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 16,
+    "Name": "LUCY",
+    "Age": "4 YEARS",
+    "Breed": "MALTESE / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 17,
+    "Name": "REBA",
+    "Age": "13 YEARS",
+    "Breed": "JACK RUSS TERR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 18,
+    "Name": "BADSTUBER",
+    "Age": "3 YEARS",
+    "Breed": "PIT BULL",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 19,
+    "Name": "SOPHIE",
+    "Age": "2 YEARS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 20,
+    "Name": "MIA",
+    "Age": "2 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 21,
+    "Name": "POOKIE",
+    "Age": "15 YEARS",
+    "Breed": "POODLE MIN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 22,
+    "Name": "ROXY",
+    "Age": "7 YEARS",
+    "Breed": "BOXER",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 23,
+    "Name": "SHEILA",
+    "Age": "6 YEARS",
+    "Breed": "CHIHUAHUA SH / TERRIER",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 24,
+    "Name": "SANDY",
+    "Age": "11 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 25,
+    "Name": "CHATO",
+    "Age": "11 YEARS",
+    "Breed": "BOXER",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 26,
+    "Name": "SPINNER",
+    "Age": "13 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 27,
+    "Name": "FREDDI",
+    "Age": "10 YEARS",
+    "Breed": "CHIHUAHUA SH / DACHSHUND MIN",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 28,
+    "Name": "MARTY",
+    "Age": "4 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 29,
+    "Name": "SONIA",
+    "Age": "3 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 30,
+    "Name": "PAULIE",
+    "Age": "6 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 31,
+    "Name": "SMOKEY",
+    "Age": "8 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 32,
+    "Name": "HARLEY",
+    "Age": "5 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 33,
+    "Name": "NIKKI",
+    "Age": "7 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 34,
+    "Name": "PONGO II",
+    "Age": "6 YEARS",
+    "Breed": "GOLDEN RETR / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 35,
+    "Name": "PRINCESS",
+    "Age": "12 YEARS",
+    "Breed": "CHOW CHOW / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 36,
+    "Name": "VAL",
+    "Age": "11 YEARS",
+    "Breed": "WELSH CORGI PEM",
+    "Resides": "HEMET CO"
+  },
+  {
+    "ID": 37,
+    "Name": "CHATO",
+    "Age": "16 YEARS",
+    "Breed": "MALTESE",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 38,
+    "Name": "RUCA",
+    "Age": "8 YEARS",
+    "Breed": "BOXER",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 39,
+    "Name": "ZOEY",
+    "Age": "5 YEARS",
+    "Breed": "BOXER",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 40,
+    "Name": "PAXTON",
+    "Age": "7 YEARS",
+    "Breed": "BOSTON TERRIER",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 41,
+    "Name": "ELVIRA",
+    "Age": "9 YEARS",
+    "Breed": "DOBERMAN PINSCH",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 42,
+    "Name": "EGON",
+    "Age": "7 YEARS",
+    "Breed": "MIN PINSCHER",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 43,
+    "Name": "LILO",
+    "Age": "4 YEARS",
+    "Breed": "MALTESE / YORKSHIRE TERR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 44,
+    "Name": "TARZAN",
+    "Age": "10 YEARS",
+    "Breed": "RAT TERRIER",
+    "Resides": "CORONA CO"
+  },
+  {
+    "ID": 45,
+    "Name": "DUFFY",
+    "Age": "6 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 46,
+    "Name": "TITO",
+    "Age": "12 YEARS",
+    "Breed": "PIT BULL / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 47,
+    "Name": "SCOUT",
+    "Age": "7 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 48,
+    "Name": "TOPANGA",
+    "Age": "7 YEARS",
+    "Breed": "GOLDEN RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 49,
+    "Name": "CHAOS",
+    "Age": "1 YEAR 9 MONTHS",
+    "Breed": "DACHSHUND",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 50,
+    "Name": "TURTLE",
+    "Age": "1 YEAR 9 MONTHS",
+    "Breed": "DACHSHUND",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 51,
+    "Name": "SIMBA",
+    "Age": "11 YEARS",
+    "Breed": "POMERANIAN",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 52,
+    "Name": "RASCAL",
+    "Age": "14 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 53,
+    "Name": "CUTIE PIE",
+    "Age": "3 YEARS",
+    "Breed": "CHIHUAHUA SH / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 54,
+    "Name": "SADIE",
+    "Age": "4 YEARS",
+    "Breed": "ENG SPRNGR SPAN",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 55,
+    "Name": "ROCKY",
+    "Age": "11 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 56,
+    "Name": "SKY",
+    "Age": "14 YEARS",
+    "Breed": "BORDER COLLIE",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 57,
+    "Name": "NICKY",
+    "Age": "12 YEARS",
+    "Breed": "PEKINGESE / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 58,
+    "Name": "TIGER",
+    "Age": "4 YEARS",
+    "Breed": "PIT BULL / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 59,
+    "Name": "SHAKIRA",
+    "Age": "5 YEARS",
+    "Breed": "POODLE MIN / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 60,
+    "Name": "SOCKS",
+    "Age": "2 YEARS",
+    "Breed": "AUST SHEPHERD",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 61,
+    "Name": "TEDDY",
+    "Age": "7 YEARS",
+    "Breed": "UNKNOWN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 62,
+    "Name": "MARLEY",
+    "Age": "2 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 63,
+    "Name": "FRISKY",
+    "Age": "12 YEARS",
+    "Breed": "MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 64,
+    "Name": "SOPHIE",
+    "Age": "NO AGE",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 65,
+    "Name": "MICKEY",
+    "Age": "6 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 66,
+    "Name": "GOOFY",
+    "Age": "11 YEARS",
+    "Breed": "CHIHUAHUA SH / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 67,
+    "Name": "COW COW",
+    "Age": "7 YEARS",
+    "Breed": "COCKER SPAN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 68,
+    "Name": "UMPIE",
+    "Age": "7 YEARS",
+    "Breed": "COCKER SPAN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 69,
+    "Name": "DUKE",
+    "Age": "12 YEARS",
+    "Breed": "COCKER SPAN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 70,
+    "Name": "DAISY MAE",
+    "Age": "9 YEARS",
+    "Breed": "COCKER SPAN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 71,
+    "Name": "FLYNN",
+    "Age": "5 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 72,
+    "Name": "BUDDY",
+    "Age": "3 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 73,
+    "Name": "LOLA",
+    "Age": "3 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 74,
+    "Name": "JEFFREY",
+    "Age": "3 YEARS",
+    "Breed": "JACK RUSS TERR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 75,
+    "Name": "BUDDY",
+    "Age": "14 YEARS",
+    "Breed": "RAT TERRIER / CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 76,
+    "Name": "LUDO",
+    "Age": "2 YEARS",
+    "Breed": "SIBERIAN HUSKY",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 77,
+    "Name": "ROMEO",
+    "Age": "7 YEARS",
+    "Breed": "CHIHUAHUA SH / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 78,
+    "Name": "PALOMA",
+    "Age": "5 YEARS",
+    "Breed": "POODLE / MALTESE",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 79,
+    "Name": "CHONCHO",
+    "Age": "9 YEARS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 80,
+    "Name": "HANK",
+    "Age": "15 YEARS",
+    "Breed": "AUST CATTLE DOG",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 81,
+    "Name": "COCO",
+    "Age": "8 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 82,
+    "Name": "ANGEL",
+    "Age": "4 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 83,
+    "Name": "SUZIE",
+    "Age": "11 YEARS",
+    "Breed": "POODLE TOY",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 84,
+    "Name": "BERNIE",
+    "Age": "12 YEARS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "HEMET CO"
+  },
+  {
+    "ID": 85,
+    "Name": "JAKE",
+    "Age": "12 YEARS",
+    "Breed": "SHEPHERD / LABRADOR RETR",
+    "Resides": "HEMET CO"
+  },
+  {
+    "ID": 86,
+    "Name": "ROCKY",
+    "Age": "7 YEARS",
+    "Breed": "PUG",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 87,
+    "Name": "MISS PRISS",
+    "Age": "13 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 88,
+    "Name": "ROXY",
+    "Age": "8 YEARS",
+    "Breed": "CHIHUAHUA LH / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 89,
+    "Name": "JJ",
+    "Age": "6 YEARS",
+    "Breed": "AUST SHEPHERD / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 90,
+    "Name": "VICKIE",
+    "Age": "7 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 91,
+    "Name": "CLAIRE",
+    "Age": "4 YEARS",
+    "Breed": "DOBERMAN PINSCH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 92,
+    "Name": "KHLOE",
+    "Age": "8 YEARS",
+    "Breed": "CHIHUAHUA SH / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 93,
+    "Name": "CHACO",
+    "Age": "12 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 94,
+    "Name": "KIERA",
+    "Age": "11 YEARS",
+    "Breed": "WEIMARANER",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 95,
+    "Name": "GOOBERS",
+    "Age": "3 YEARS",
+    "Breed": "BEAGLE / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 96,
+    "Name": "BRISA",
+    "Age": "3 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 97,
+    "Name": "BLUE ELA",
+    "Age": "6 YEARS",
+    "Breed": "PIT BULL / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 98,
+    "Name": "CHIQUITA",
+    "Age": "12 YEARS",
+    "Breed": "POMERANIAN",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 99,
+    "Name": "GIDGET",
+    "Age": "15 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 100,
+    "Name": "MOOPIG",
+    "Age": "8 YEARS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 101,
+    "Name": "LULU",
+    "Age": "10 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 102,
+    "Name": "DIXIE",
+    "Age": "11 YEARS",
+    "Breed": "TERRIER",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 103,
+    "Name": "TOCSO",
+    "Age": "7 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 104,
+    "Name": "SUGAR",
+    "Age": "13 YEARS",
+    "Breed": "POODLE TOY",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 105,
+    "Name": "YUKI",
+    "Age": "7 YEARS",
+    "Breed": "YORKSHIRE TERR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 106,
+    "Name": "FRIDAY",
+    "Age": "4 YEARS",
+    "Breed": "MASTIFF / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 107,
+    "Name": "ANDY",
+    "Age": "NO AGE",
+    "Breed": "CHIHUAHUA SH / JACK RUSS TERR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 108,
+    "Name": "ROSETTE",
+    "Age": "2 YEARS",
+    "Breed": "DOBERMAN PINSCH",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 109,
+    "Name": "BLITZ",
+    "Age": "13 YEARS",
+    "Breed": "DACHSHUND MIN / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 110,
+    "Name": "LEICA",
+    "Age": "15 YEARS",
+    "Breed": "GERM SHEPHERD / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 111,
+    "Name": "RUSTY",
+    "Age": "9 YEARS",
+    "Breed": "CHIHUAHUA SH / DACHSHUND MIN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 112,
+    "Name": "MOCHA",
+    "Age": "9 YEARS",
+    "Breed": "DACHSHUND WH",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 113,
+    "Name": "DANE",
+    "Age": "3 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 114,
+    "Name": "FOXY",
+    "Age": "3 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 115,
+    "Name": "NIKKI",
+    "Age": "9 YEARS",
+    "Breed": "BEAGLE / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 116,
+    "Name": "SCOOTER",
+    "Age": "6 YEARS",
+    "Breed": "CHIHUAHUA SH / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 117,
+    "Name": "MOLLY",
+    "Age": "6 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 118,
+    "Name": "TANGO",
+    "Age": "4 YEARS",
+    "Breed": "BORDER COLLIE",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 119,
+    "Name": "LUNA",
+    "Age": "6 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 120,
+    "Name": "CIERA",
+    "Age": "1 YEAR 5 MONTHS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 121,
+    "Name": "LIL BEAR",
+    "Age": "8 YEARS",
+    "Breed": "POODLE MIN",
+    "Resides": "HEMET CO"
+  },
+  {
+    "ID": 122,
+    "Name": "SNOWBALL",
+    "Age": "8 YEARS",
+    "Breed": "POODLE MIN",
+    "Resides": "HEMET CO"
+  },
+  {
+    "ID": 123,
+    "Name": "MR. MAGOO",
+    "Age": "13 YEARS",
+    "Breed": "COCKER SPAN",
+    "Resides": "HEMET CO"
+  },
+  {
+    "ID": 124,
+    "Name": "CORTEZ",
+    "Age": "5 YEARS",
+    "Breed": "ENG BULLDOG",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 125,
+    "Name": "SPIKE",
+    "Age": "17 YEARS",
+    "Breed": "SCOT TERRIER / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 126,
+    "Name": "NOAH",
+    "Age": "5 YEARS",
+    "Breed": "AUST SHEPHERD",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 127,
+    "Name": "GRACIE",
+    "Age": "10 YEARS",
+    "Breed": "PIT BULL",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 128,
+    "Name": "CHIWEE",
+    "Age": "8 YEARS",
+    "Breed": "CHIHUAHUA SH / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 129,
+    "Name": "JAKE",
+    "Age": "7 YEARS",
+    "Breed": "PIT BULL",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 130,
+    "Name": "GABE",
+    "Age": "4 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 131,
+    "Name": "BELLA",
+    "Age": "4 YEARS",
+    "Breed": "BEAGLE / COCKER SPAN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 132,
+    "Name": "BEAUREGARD",
+    "Age": "7 YEARS",
+    "Breed": "ENG BULLDOG",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 133,
+    "Name": "CODY",
+    "Age": "7 YEARS",
+    "Breed": "COCKER SPAN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 134,
+    "Name": "LEROY",
+    "Age": "9 YEARS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 135,
+    "Name": "HIDEE",
+    "Age": "12 YEARS",
+    "Breed": "QUEENSLAND HEEL",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 136,
+    "Name": "ROCKY",
+    "Age": "4 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 137,
+    "Name": "LEXIE",
+    "Age": "13 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 138,
+    "Name": "MAXIMUS",
+    "Age": "6 MONTHS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 139,
+    "Name": "GINGER",
+    "Age": "3 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 140,
+    "Name": "BELLE",
+    "Age": "12 YEARS",
+    "Breed": "LABRADOR RETR / DALMATIAN",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 141,
+    "Name": "JAZMYN",
+    "Age": "9 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 142,
+    "Name": "IZZY",
+    "Age": "9 YEARS",
+    "Breed": "BORDER COLLIE / DALMATIAN",
+    "Resides": "CORONA CO"
+  },
+  {
+    "ID": 143,
+    "Name": "ZOE",
+    "Age": "4 YEARS",
+    "Breed": "COCKER SPAN",
+    "Resides": "CORONA CO"
+  },
+  {
+    "ID": 144,
+    "Name": "HUNTER",
+    "Age": "5 YEARS",
+    "Breed": "MANCHESTER TERR",
+    "Resides": "CORONA CO"
+  },
+  {
+    "ID": 145,
+    "Name": "HONEY",
+    "Age": "7 YEARS",
+    "Breed": "GOLDEN RETR",
+    "Resides": "EASTVALE"
+  },
+  {
+    "ID": 146,
+    "Name": "HERCULES",
+    "Age": "6 YEARS",
+    "Breed": "JACK RUSS TERR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 147,
+    "Name": "INDY",
+    "Age": "3 YEARS",
+    "Breed": "AM PIT BULL TER / MASTIFF",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 148,
+    "Name": "JENNA",
+    "Age": "7 YEARS",
+    "Breed": "GERM SHEPHERD",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 149,
+    "Name": "THUG",
+    "Age": "5 YEARS",
+    "Breed": "MASTIFF",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 150,
+    "Name": "HOMIE",
+    "Age": "3 YEARS",
+    "Breed": "BORDER COLLIE",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 151,
+    "Name": "CANNOI",
+    "Age": "1 YEAR 2 MONTHS",
+    "Breed": "TERRIER / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 152,
+    "Name": "CANELO",
+    "Age": "14 YEARS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 153,
+    "Name": "GIZZY",
+    "Age": "3 YEARS",
+    "Breed": "BICHON FRISE",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 154,
+    "Name": "CODY",
+    "Age": "6 YEARS",
+    "Breed": "BORDER COLLIE",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 155,
+    "Name": "CRICKET",
+    "Age": "14 YEARS",
+    "Breed": "BORDER COLLIE",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 156,
+    "Name": "EMMIE LOU",
+    "Age": "4 YEARS",
+    "Breed": "BORDER COLLIE",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 157,
+    "Name": "MONA",
+    "Age": "11 YEARS",
+    "Breed": "BICHON FRISE",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 158,
+    "Name": "ROCKY",
+    "Age": "1 YEAR 6 MONTHS",
+    "Breed": "BOXER / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 159,
+    "Name": "BETTY",
+    "Age": "NO AGE",
+    "Breed": "TERRIER",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 160,
+    "Name": "BUDDY",
+    "Age": "7 YEARS",
+    "Breed": "SHIH TZU",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 161,
+    "Name": "MISSY",
+    "Age": "10 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 162,
+    "Name": "CHULA",
+    "Age": "2 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 163,
+    "Name": "GIGI",
+    "Age": "7 YEARS",
+    "Breed": "MIN PINSCHER",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 164,
+    "Name": "KILLER",
+    "Age": "10 YEARS",
+    "Breed": "MIN PINSCHER",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 165,
+    "Name": "DEISEL",
+    "Age": "9 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 166,
+    "Name": "GIGI",
+    "Age": "9 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 167,
+    "Name": "MADDIE",
+    "Age": "11 YEARS",
+    "Breed": "POODLE",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 168,
+    "Name": "BENNY",
+    "Age": "14 YEARS",
+    "Breed": "CHIHUAHUA SH / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 169,
+    "Name": "ROSCOE",
+    "Age": "11 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 170,
+    "Name": "DEEDEE",
+    "Age": "7 YEARS",
+    "Breed": "CHIHUAHUA SH / MIN PINSCHER",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 171,
+    "Name": "LUNA",
+    "Age": "1 YEAR 7 MONTHS",
+    "Breed": "CHIHUAHUA LH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 172,
+    "Name": "MISTY",
+    "Age": "2 YEARS",
+    "Breed": "POMERANIAN",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 173,
+    "Name": "GORDON",
+    "Age": "2 YEARS",
+    "Breed": "POMERANIAN",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 174,
+    "Name": "CHARRO",
+    "Age": "10 YEARS",
+    "Breed": "CHIHUAHUA SH / DACHSHUND MIN",
+    "Resides": "CORONA CO"
+  },
+  {
+    "ID": 175,
+    "Name": "SKEETER",
+    "Age": "3 YEARS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 176,
+    "Name": "GOLDIE",
+    "Age": "3 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 177,
+    "Name": "SISSY",
+    "Age": "3 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 178,
+    "Name": "SHILO",
+    "Age": "NO AGE",
+    "Breed": "DOBERMAN PINSCH",
+    "Resides": "PERRIS CO"
+  },
+  {
+    "ID": 179,
+    "Name": "PRESLEY",
+    "Age": "6 MONTHS",
+    "Breed": "GREAT DANE",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 180,
+    "Name": "DEXTER",
+    "Age": "8 YEARS",
+    "Breed": "MALTESE",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 181,
+    "Name": "LUNAA",
+    "Age": "1 YEAR 5 MONTHS",
+    "Breed": "PIT BULL / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 182,
+    "Name": "TROY",
+    "Age": "8 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "CORONA CO"
+  },
+  {
+    "ID": 183,
+    "Name": "COLBIE",
+    "Age": "5 YEARS",
+    "Breed": "RAT TERRIER",
+    "Resides": "CORONA CO"
+  },
+  {
+    "ID": 184,
+    "Name": "LEXI",
+    "Age": "10 YEARS",
+    "Breed": "PIT BULL",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 185,
+    "Name": "ROXY",
+    "Age": "10 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 186,
+    "Name": "LACY",
+    "Age": "14 YEARS",
+    "Breed": "MALTESE / YORKSHIRE TERR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 187,
+    "Name": "ZOEY",
+    "Age": "1 YEAR 10 MONTHS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 188,
+    "Name": "JOEY (JOJO)",
+    "Age": "8 YEARS",
+    "Breed": "CHIHUAHUA SH",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 189,
+    "Name": "ROXY",
+    "Age": "4 YEARS",
+    "Breed": "LABRADOR RETR",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 190,
+    "Name": "SAMANTHA",
+    "Age": "10 YEARS",
+    "Breed": "BEAGLE",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 191,
+    "Name": "LUNA",
+    "Age": "1 YEAR 10 MONTHS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 192,
+    "Name": "KIKO",
+    "Age": "4 YEARS",
+    "Breed": "POODLE MIN / MIX",
+    "Resides": "RIVERSIDE"
+  },
+  {
+    "ID": 193,
+    "Name": "TANGO",
+    "Age": "10 YEARS",
+    "Breed": "MANCHESTER TERR",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 194,
+    "Name": "ENGLAND",
+    "Age": "NO AGE",
+    "Breed": "AUST SHEPHERD",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 195,
+    "Name": "BAM",
+    "Age": "8 YEARS",
+    "Breed": "CHIHUAHUA SH / DACHSHUND MIN",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 196,
+    "Name": "RIO",
+    "Age": "10 MONTHS",
+    "Breed": "AUST SHEPHERD / MIX",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 197,
+    "Name": "LYCAN",
+    "Age": "4 YEARS",
+    "Breed": "SIBERIAN HUSKY",
+    "Resides": "JURUPA VALLEY"
+  },
+  {
+    "ID": 198,
+    "Name": "PEPPER",
+    "Age": "5 YEARS",
+    "Breed": "LABRADOR RETR / BORDER COLLIE",
+    "Resides": "RIVERSIDE CO"
+  },
+  {
+    "ID": 199,
+    "Name": "LACY",
+    "Age": "3 YEARS",
+    "Breed": "LABRADOR RETR / MIX",
+    "Resides": "RIVERSIDE CO"
+  }
+]
