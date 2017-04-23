@@ -72,12 +72,12 @@ let array = [
 					{
 						id: 1,
 						title: "Solar Smart Buy",
-						link: "#",
+						link: "/ssb/",
 						linkTitle: "Solar Smart Buy",
 						imgSrc: "img/ssb.jpeg",
 						imgAlt: "Solar Smart Buy",
 						caption: "Web Application",
-						description: "Built this one-page app for a Lemonade Stand client. It lets would-be customers see how much money they'd save by installing solar panels in their home. I use the JavaScript history API to push history entries every time a client moves through a section - so even though it's all one page, you can use the forward and back buttons to navigate through the app. Can't show you source code, unfortunately - it's a client project! *NOTE: I'm not currently linking to this project because it's live, and if you play around with it you'll probably get a call from my client :) If you're interested in seeing a demo version, just let me know - I'm in the process of hosting it on my server.*"
+						description: "Built this one-page app for a Lemonade Stand client. It lets would-be customers see how much money they'd save by installing solar panels in their home. I use the JavaScript history API to push history entries every time a client moves through a section - so even though it's all one page, you can use the forward and back buttons to navigate through the app. Can't show you source code, unfortunately - it's a client project! This is a demo version without full validation/email functionality, as I'm guessing you don't want a call from someone trying to sell you solar panels."
 					},
 					{
 						id: 2,
